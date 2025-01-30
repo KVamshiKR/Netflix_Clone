@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Martel Sans", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/bg.jpg");
+  height: 70vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  position: relative;
+}
+.main .box{
+  height: 70vh;
+  width: 100%;
+  opacity: 0.6;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  max-width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+nav img {
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero{
+  font-family: "Martel Sans", sans-serif;
+  font-style: normal;
+  height: calc(100% - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  position: relative;
+  gap: 25px;
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-weight: 1000;
+  font-size: 45px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 500;
+  background-color: rgba(23, 23, 23, 0.5);
+  color: white;
+  border: 1px solid white;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn-red-signin {
+  background-color: red;
+  color: white;
+}
+.input-email {
+  padding: 3px 20px;
+  font-size: 19px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  /* font-weight: 600; */
+  font-family: "Martel Sans", sans-serif;
+  color: white;
+  border: 1px solid rgba(23, 23, 23, 0.5);
+}
+
+.btn-red-get {
+  background-color: red;
+  color: white;
+  padding: 8px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.seperator {
+  background-color: gray;
+  height: 5px;
+}
+
+.first {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    align-items: center;
+    font-family: "Martel Sans", sans-serif;
+}
+
+section.first>div{
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0px;
+}
+.first > div :nth-child(1){
+  font-size: 48px;
+  font-weight: bolder;
+}
+.first> div :nth-child(2){
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.secimg{
+    position: relative;
+}
+
+.secimg img{
+    max-width: 555px;
+    position: relative;
+    z-index: 10;
+    top: 10px;
+
+}
+.secimg video{
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    max-width: 430px;
+}
+
+
+.third .secimg video{
+  position: absolute;
+  top: 65px;
+  right: 105px;
+  max-width: 350px;
+}
+.faq{
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+
+.faq h2{
+  text-align: center;
+  font-size: 48px;
+}
+.faqbox{
+display: flex;
+background-color: #2d2d2d;
+padding: 24px;
+max-width: 60vw;
+font-size: 24px;
+margin: 34px auto;
+justify-content: space-between;
+transition: all 1s ease-in-out;
+}
+.faq h6{
+  text-align: center;
+  font-size: 20px;
+}
+.faqbox:hover{
+  background-color: #a9a9a96c;
+}
+.down-email{
+  padding: 3px 20px;
+  font-size: 27px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  font-family: "Martel Sans", sans-serif;
+  color: white;
+  border: 1px solid rgba(255, 254, 254, 0.5);
+}
+footer{
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+.questions{
+  margin: 34px 0px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+.footer a{
+  color: white;
+  color: 14px;
+}
+.footer-item{
+display: flex;
+flex-direction: column;
+gap: 11px;
+}
+
+.owner{
+  font-size: large;
+  text-align: center;
+  margin: 20px;
+}
+
+.owner a{
+  color: white;
+}
+@media screen and (max-width: 1300px){
+  nav{
+    max-width: 90vw;
+  }
+  .first{
+    flex-wrap: wrap;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    gap: 20px;
+  }
+  .secimg img{
+    max-width: 350px;
+    position: relative;
+    z-index: 10;
+    top: 10px;
+
+}
+.secimg video{
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    max-width: 250px;
+}
+
+
+.third .secimg video{
+  position: absolute;
+  top: 70px;
+  right: 60px;
+  max-width: 230px;
+}
+
+
+.hero > :nth-child(1) {
+  font-size: 32px;
+}
+
+.hero > :nth-child(2) {
+  font-size: 18px;
+}
+
+.hero > :nth-child(3) {
+  font-size: 18px;
+}
+.hero-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.down-email{
+  font-size: 25px;
+}
+}
