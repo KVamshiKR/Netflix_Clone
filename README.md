@@ -12,12 +12,13 @@ A simple **Netflix Clone** built using **HTML and CSS** to replicate the look an
 - **CSS3** - For styling and layout
 
 ## 📂 Folder Structure
+```
 Netflix-Clone/
 │── index.html
 │── style.css
 │── assets/
 │── README.md
-
+```
 
 ## 📥 How to Use
 1. **Clone this repository:**
