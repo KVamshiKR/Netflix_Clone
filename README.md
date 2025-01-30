@@ -11,6 +11,10 @@ A simple **Netflix Clone** built using **HTML and CSS** to replicate the look an
 - **HTML5** - For structuring the webpage
 - **CSS3** - For styling and layout
 
+## 🚀 Live Demo
+🔗 [Click here to view the project](#) *(https://kvamshikr.github.io/Netflix_Clone/)*
+
+
 ## 📂 Folder Structure
 ```
 Netflix-Clone/
