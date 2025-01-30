@@ -22,9 +22,9 @@ Netflix-Clone/
 
 ## 📥 How to Use
 1. **Clone this repository:**
-   git clone https://github.com/KVamshiKR/Netflix_Clone.git
+   `git clone https://github.com/KVamshiKR/Netflix_Clone.git`
 2. **Navigate to the project folder:**
-   cd Netflix_Clone
+   `cd Netflix_Clone`
 3. **Open `index.html` in your browser.**
 
 ## 📌 Future Enhancements
