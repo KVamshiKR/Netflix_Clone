@@ -36,6 +36,12 @@ Netflix-Clone/
 🚀 Integrate a backend for user authentication
 🚀 Implement a dark mode toggle
 
+## ⚠️ Disclaimer
+
+This project is a clone of Netflix created purely for educational and learning purposes. It is not associated with, endorsed by, or affiliated with Netflix Inc. in any way.
+
+This site does not collect any personal data and is not used for phishing or malicious purposes.
+
 ## 📜 License
 This project is for educational purposes only and is not affiliated with Netflix.
 
